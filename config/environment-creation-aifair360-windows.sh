@@ -1,7 +1,7 @@
 conda create --name fair-env python=3.12 jupyter notebook pandas scikit-learn matplotlib seaborn  conda-forge::lightgbm -y
 conda activate fair-env
 python -m ipykernel install --user --name=fair-env
-pip install -r requirements-macos.txt
+pip install -r requirements-win.txt
 
 # pip install igraph
 # pip install torch torchvision torchaudio
